@@ -15,7 +15,7 @@ font-family: 'Poiret One', cursive;
 
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Poiret One', cursive;
-	letter-spacing: 1.75px
+	letter-spacing: 1.75px;
 }
 
 h1{
@@ -23,7 +23,6 @@ h1{
 	margin-bottom:20px;
 	color:#C5BCF4;
 }
-
 
 img{
 	width:auto;
@@ -107,10 +106,6 @@ footer p{
 	flex-wrap: wrap;
 }
 
-.conf{
-	display:flex;
-}
-
 .w100{
 	width:100%;
 }
@@ -138,11 +133,3 @@ footer p{
 .tc{
 	text-align: center;
 }
-
-
-
-
-
-
-
-

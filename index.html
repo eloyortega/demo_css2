@@ -5,82 +5,87 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <style>
 #hero{
-	min-height:50vh;
-	background:linear-gradient( rgba(255,255,255,.125), rgba(255,255,255,1) ), url(assets/img/bg.jpg);
+	height:50vh;
+	min-height:500px;
+	background:url(assets/img/bg.jpg);
 	background-size: cover;
 	background-position:center center;
 	display: flex;
-	justify-content: center;
+	/* justify-content: center;*/
 	align-items: center;
 }
-	
-	#herocontent{
-		max-width:500px;
-/*
-		transform: rotateY(-50deg) 
-			rotateZ(-15deg) perspective(300px);
-*/
-	}
-	
-	#herocontent h1{
-		color:#fff;
-		font-family: 'Lobster', cursive;
-	}
-	
-	#cta{
-		background:linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 80%, #3C2B8C);
-	}
-	
+
+#herocontent{
+	max-width:450px;
+	background:rgba(60, 43, 140,.55);
+	border-radius: 15px;
+	margin-left:35px;
+	padding:30px;
+}
+
+#herocontent h1{
+	color:#fff;
+	font-family: 'Lobster', cursive;
+}
+
+#herocontent p{
+	color:#fff;
+	margin-bottom: 15px;
+}
+
+#cta p{
+	margin-bottom: 20px;
+}
+
 </style>
 </head>
 <body>
 <header>
-<a href="index.html">
-	<img src="assets/img/logo.png">
-</a>
-<nav>
-	<ul>
-		<li><a href="index.html">HOME</a></li>
-		<li><a href="index.html#port">PORTFOLIO</a></li>
-		<li><a href="contact.html">CONTACT</a></li>
-	</ul>
-</nav>
+	<a href="index.html">
+		<img src="assets/img/logo.png">
+	</a>
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="index.html#port">PORTFOLIO</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
 </header>
 <div id="hero">
-<div id="herocontent">
-	<h1>My Promise</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	<p><a href="contact.html" class="btn">Contact Me</a></p>
+	<div id="herocontent">
+		<h1>My Promise</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p><a href="contact.html" class="btn">Contact Me</a></p>
+	</div>
 </div>
-</div>
-<div class="con12 tc p80" style="border-bottom: 1px solid #C5BCF4">
-<div class="w100">
-	<h1>Featured Portfolio</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</div>
-<div class="w33 p20">
-	<img src="assets/img/projectthumb1.jpg" class="round">
-	<h4>Project 1</h4>
-</div>
-<div class="w33 p20">
-	<img src="assets/img/projectthumb2.jpg" class="round">
-	<h4>Project 2</h4>
-</div>
-<div class="w33 p20">
-	<img src="assets/img/projectthumb3.jpg" class="round">
-	<h4>Project 3</h4>
-</div>
+<div class="con12 tc p80" id="port" style="border-bottom: 1px solid #C5BCF4">
+	<div class="w100">
+		<h1>Featured Portfolio</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="w33 p20">
+		<img src="assets/img/projectthumb1.jpg" class="round">
+		<h4>Project 1</h4>
+	</div>
+	<div class="w33 p20">
+		<img src="assets/img/projectthumb2.jpg" class="round">
+		<h4>Project 2</h4>
+	</div>
+	<div class="w33 p20">
+		<img src="assets/img/projectthumb3.jpg" class="round">
+		<h4>Project 3</h4>
+	</div>
 </div>
 <div class="con12 tc p80" id="cta">
-<div class="w100">
-	<h1>Contact Me Today</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	<p><a href="contact.html" class="btn">Contact Me</a></p>
+	<div class="w100">
+		<h1>Contact Me Today</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p><a href="contact.html" class="btn">Contact Me</a></p>
+	</div>
 </div>
-</div>
-
-
 <footer class="p20 tc">
-<p>&copy; 2019. All rights reserved. </p>
+	<p>&copy; 2019. All rights reserved. </p>
 </footer>
-</body></html>
+</body>
+</html>
